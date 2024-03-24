@@ -12,6 +12,7 @@ import {
 import React, { useContext, useEffect } from "react";
 
 import { ClientStyleContext, ServerStyleContext } from "./context";
+import dbConnect from "server/db.server";
 
 export const links: LinksFunction = () => {
   return [
